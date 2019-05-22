@@ -10,22 +10,6 @@
         android:id="@+id/main_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="3"
-            android:padding="10dp">
-
-            <news.androidtv.libs.player.YouTubePlayerView
-                android:id="@+id/player_youtube"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_alignParentStart="true"
-                android:layout_centerVertical="true"
-                android:padding="10dp">
-
-            </news.androidtv.libs.player.YouTubePlayerView>
-        </RelativeLayout>
 
     </RelativeLayout>
 

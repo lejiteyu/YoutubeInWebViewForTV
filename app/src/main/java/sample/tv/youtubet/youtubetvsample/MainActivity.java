@@ -15,10 +15,10 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        FragmentManager fragmentManager = getSupportFragmentManager();
-//        FragmentTransaction transaction = fragmentManager.beginTransaction();
-//        transaction.add(R.id.main_layout, new YoutubeFragment(), "YoutubeFragment");
-//        transaction.commit();
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.add(R.id.main_layout, new YoutubeFragment(), "YoutubeFragment");
+        transaction.commit();
 
         /**
          * 參考：https://blog.csdn.net/lsyz0021/article/details/51473194
@@ -27,12 +27,12 @@ public class MainActivity extends FragmentActivity {
          * 3.建立資料夾 assets
          * 4.
          */
-        String file="file:///android_asset/";
-        String videoId = "\'T4SimnaiktU\'";
-        Intent intent = new Intent(this, AssessWeb.class);
-        intent.putExtra("message", file+"youtube.html");//"https://staging3.video.friday.tw/act/TV_login/login.html");//
-        intent.putExtra("videoId", videoId);
-        startActivity(intent);
-        finish();
+//        String file="file:///android_asset/";
+//        String videoId = "\'T4SimnaiktU\'";
+//        Intent intent = new Intent(this, AssessWeb.class);
+//        intent.putExtra("message", file+"youtube.html");//"https://staging3.video.friday.tw/act/TV_login/login.html");//
+//        intent.putExtra("videoId", videoId);
+//        startActivity(intent);
+//        finish();
     }
 }
