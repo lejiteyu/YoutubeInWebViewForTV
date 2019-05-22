@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/i_hfuhsu/.android/build-cache/21d0bee5012f72d3b30f7f18a9cdf126904931ce/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/i_hfuhsu/Android/VOD/YoutubeInWebViewForTV/app/build/intermediates/pre-dexed/debug/classes_aac4653e29bf3f1970c85090f50723637e162160.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/i_hfuhsu/.android/build-cache/c00b4553b1a9bba06a5649fda9e752e1b8145ada/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/i_hfuhsu/Android/VOD/YoutubeInWebViewForTV/app/build/intermediates/pre-dexed/debug/classes_d83a19e37d75b919ab8f8b0461021acaacd6d55e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/i_hfuhsu/.android/build-cache/21d0bee5012f72d3b30f7f18a9cdf126904931ce/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aac4653e29bf3f1970c85090f50723637e162160/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/i_hfuhsu/.android/build-cache/bc965c0aefa5c62398d62878508b0edbfa40c245/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4fe74dbe2b4735f42972c4c33fd05dcd4c041a2d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/i_hfuhsu/.android/build-cache/bc965c0aefa5c62398d62878508b0edbfa40c245/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/i_hfuhsu/Android/VOD/YoutubeInWebViewForTV/app/build/intermediates/pre-dexed/debug/classes_4fe74dbe2b4735f42972c4c33fd05dcd4c041a2d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/i_hfuhsu/.android/build-cache/042fefbce233fd469c537f038039370a296308dd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_276b6f83920c0775e57d93d95f44705619b9249c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/i_hfuhsu/.android/build-cache/042fefbce233fd469c537f038039370a296308dd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/i_hfuhsu/Android/VOD/YoutubeInWebViewForTV/app/build/intermediates/pre-dexed/debug/classes_276b6f83920c0775e57d93d95f44705619b9249c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_f4ebf4e7bc6d22ab4dd534e500199c2c322126ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/i_hfuhsu/.android/build-cache/fad3c5e7b326e114eeb13efbf16d1879f39adadf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/i_hfuhsu/Android/VOD/YoutubeInWebViewForTV/app/build/intermediates/pre-dexed/debug/classes_d410490203b6ace108608df19da017b57c7c77f5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/i_hfuhsu/.android/build-cache/9720b946abb30f549d83992a1ce605b7738eadab/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a4390c3245fd5ad28b50c157781100550fc394be/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/i_hfuhsu/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/i_hfuhsu/Android/VOD/YoutubeInWebViewForTV/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_771797311d85e96ca2da85f8c6dbb1a032f4355a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/i_hfuhsu/.android/build-cache/9720b946abb30f549d83992a1ce605b7738eadab/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/i_hfuhsu/Android/VOD/YoutubeInWebViewForTV/app/build/intermediates/pre-dexed/debug/classes_a4390c3245fd5ad28b50c157781100550fc394be.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3c85908b0ea6d78989284f442cf7b140934ddf33/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/i_hfuhsu/Android/VOD/YoutubeInWebViewForTV/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/Users/i_hfuhsu/Android/VOD/YoutubeInWebViewForTV/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi_b76ef9b24dd6e39c7629e665098eb7dbcf922cbf.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/i_hfuhsu/.android/build-cache/fad3c5e7b326e114eeb13efbf16d1879f39adadf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d410490203b6ace108608df19da017b57c7c77f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/i_hfuhsu/.android/build-cache/8fda8527c391151cc037a2461c2b4023b8c13f19/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/i_hfuhsu/Android/VOD/YoutubeInWebViewForTV/app/build/intermediates/pre-dexed/debug/classes_4fc2bb84b8bc2cfc9ad9f74a5ca19299fbcb5cbd.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="54b7863be1e5a447369baa4ffa946edcfa9b195d">
+        <dex dex="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4d01980c93ae0a3a4f88164153def42f6d243694/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/i_hfuhsu/.android/build-cache/a8aff1c2a624c332a2f4cd12c1eac6f5f899cfde/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/i_hfuhsu/Android/VOD/YoutubeInWebViewForTV/app/build/intermediates/pre-dexed/debug/classes_3d33e199574b98c42c287dd6e8acaf42bed90f2f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/i_hfuhsu/.android/build-cache/a8aff1c2a624c332a2f4cd12c1eac6f5f899cfde/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3d33e199574b98c42c287dd6e8acaf42bed90f2f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/i_hfuhsu/.android/build-cache/b6c457724655c8c866774c20fd87c41328cef21a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/i_hfuhsu/Android/VOD/YoutubeInWebViewForTV/app/build/intermediates/pre-dexed/debug/classes_61ba0625846ecc91e1bf83758b0655887fa3ab6d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/i_hfuhsu/.android/build-cache/8fda8527c391151cc037a2461c2b4023b8c13f19/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4fc2bb84b8bc2cfc9ad9f74a5ca19299fbcb5cbd/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/i_hfuhsu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/i_hfuhsu/Android/VOD/YoutubeInWebViewForTV/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_93f8fb21bb274df9c87df70457dd33f73a45e848.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/i_hfuhsu/.android/build-cache/252dd8c0900cca06224a1dfb80cdfad2d3460a6f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_55c2b22636350d9c487eb9f86bc785cd06e64566/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/i_hfuhsu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_93f8fb21bb274df9c87df70457dd33f73a45e848/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/i_hfuhsu/.android/build-cache/252dd8c0900cca06224a1dfb80cdfad2d3460a6f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/i_hfuhsu/Android/VOD/YoutubeInWebViewForTV/app/build/intermediates/pre-dexed/debug/classes_55c2b22636350d9c487eb9f86bc785cd06e64566.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/i_hfuhsu/.android/build-cache/b6c457724655c8c866774c20fd87c41328cef21a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/i_hfuhsu/Android/Self/YoutubeTVSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_61ba0625846ecc91e1bf83758b0655887fa3ab6d/classes.dex" />
+    </item>
+
+</items>

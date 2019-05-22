@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <p>This is youtube test </p>
+    <br>
+    <div id="player"></div>
+
+    <script>
+        // 2. This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/player_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // 3. This function creates an <iframe> (and YouTube player)
+        //    after the API code downloads.
+        var player;
+
+        var msgFromJava
+
+        //在android代码中调用此方法
+        function showInfoFromJava(msg){
+            <!--alert("来自客户端的信息："+msg);-->
+            msgFromJava=msg;
+            stopVideo() ;
+            player.loadVideoById(msgFromJava)
+        }
+
+
+        function onYouTubeIframeAPIReady() {
+                player = new YT.Player('player', {
+                    width: '1920',
+                    height: '1080',
+                    videoId: '',
+                    events: {
+                        'onReady': onPlayerReady,
+                        'onStateChange': onPlayerStateChange,
+
+
+                    }
+            });
+        }
+
+        // 4. The API will call this function when the video player is ready.
+        function onPlayerReady(event) {
+            event.target.playVideo();
+            getPlayDuration();
+            getPlayCurrentTime();
+        }
+
+
+        // 5. The API calls this function when the player's state changes.
+        //    The function indicates that when playing a video (state=1),
+        //    the player should play for six seconds and then stop.
+        var done = false;
+        var unstarted=-1;
+        var ended=0;
+        var playing=1;
+        var paused=2;
+        var buffering=3;
+        var videoCued=4;
+
+        function onPlayerStateChange(event) {
+            getPlayerState();
+            if (event.data == YT.PlayerState.PLAYING && !done) {
+                <!--setTimeout(stopVideo, 6000);-->
+                done = true;
+                getPlayDuration();
+                getPlayCurrentTime();
+            }
+            <!--event.target.setVolume(100);-->
+            <!--event.target.playVideo();-->
+        }
+        function stopVideo() {
+            player.stopVideo();
+        }
+
+        function playPauseVideo(){
+         <!--alert('getPlayerState='+player.getPlayerState());-->
+            if(player.getPlayerState()==playing){
+                player.pauseVideo();
+            }else{
+                player.playVideo();
+            }
+        }
+
+        function playVideo(){
+            player.playVideo();
+        }
+
+
+        function pauseVideo(){
+            player.pauseVideo();
+        }
+
+        function getPlayerState(){
+            AssessWeb.onListenerPlayerState(player.getPlayerState());
+        }
+
+        function getDuration(){
+            getPlayDuration();
+        }
+
+        function getPlayDuration(){
+            AssessWeb.onListenerPlayerDuration(player.getDuration());
+        }
+
+        function getCurrentTime(){
+            getPlayCurrentTime();
+        }
+
+        function getPlayCurrentTime(){
+            AssessWeb.onListenerPlayerCurrentTime(player.getCurrentTime());
+        }
+
+    </script>
+
+    <!--<button onclick="playVideo()">-->
+        <!--play/pause-->
+    <!--</button>-->
+    </body>
+</html>

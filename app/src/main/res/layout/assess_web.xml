@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--//20160301 word cloud Lyon start-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="visible"
+        android:background="@drawable/bg_title"
+        android:id="@+id/relativeLayout">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:text="xxxxaaaaaa"
+            android:id="@+id/titleView"
+            android:textSize="20sp"
+            android:textColor="@color/category_text"
+            android:singleLine="true"
+            android:gravity="center"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/url_txt"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/webViewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/relativeLayout"
+            >
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/webViewLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sendToJs"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="play/pause"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_light_blue"
+        android:padding="10dp"
+        android:layout_marginStart="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/url_txt"
+        android:layout_marginBottom="51dp" />
+
+    <Button
+        android:id="@+id/play1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="play Ariel song"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_light_blue"
+        android:padding="10dp"
+        android:layout_alignBaseline="@+id/play2"
+        android:layout_alignBottom="@+id/play2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/play2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="play G.E.M song"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_light_blue"
+        android:padding="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_alignTop="@+id/sendToJs"
+        android:layout_toEndOf="@+id/sendToJs" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/btn_light_blue"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/play1"
+        android:text="Button" />
+
+</RelativeLayout>
