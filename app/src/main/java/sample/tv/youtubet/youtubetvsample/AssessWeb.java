@@ -47,8 +47,8 @@ public class AssessWeb extends Activity {
     String openApp="intent";
     RelativeLayout webViewLayout;
     ImageButton menuBackBtn;
-    //                                國會頻道          蔡佩軒         鄧芷琪
-    private String video_idd[] = {"MBNStMnw-dg","gxmgcXgNWcg","T4SimnaiktU"};
+    //                                國會頻道          蔡佩軒         鄧芷琪         東森新聞
+    private String video_idd[] = {"MBNStMnw-dg","gxmgcXgNWcg","T4SimnaiktU","dxpWqjvEKaM"};
 
     String videoId="gxmgcXgNWcg";
 
@@ -65,9 +65,6 @@ public class AssessWeb extends Activity {
         webViewLayout = (RelativeLayout) findViewById(R.id.webViewLayout);
         TextView titleView = (TextView) findViewById(R.id.titleView);
         titleView.setText(getIntent().getStringExtra(URL));
-
-
-
         mWebView = new WebView(context){
 
         };//WebView)findViewById(R.id.webView);
@@ -96,7 +93,6 @@ public class AssessWeb extends Activity {
         webSettings.setLoadWithOverviewMode(true);//WebView 自適螢幕大小
         webSettings.setRenderPriority(WebSettings.RenderPriority.HIGH);
         webSettings.setCacheMode(WebSettings.LOAD_DEFAULT);
-//        mWebView.requestFocus();
         mWebView.loadUrl(URL);
         mWebView.setFocusable(false);
 
@@ -284,6 +280,7 @@ public class AssessWeb extends Activity {
     //在java中调用js代码
     public void playVideo(WebView mWebView) {
         //调用js中的函数：showInfoFromJava(msg)
+        Log.d(TAG,"playVideo()");
         mWebView.loadUrl("javascript:playPauseVideo()");
         getplayDuration(mWebView);
         getCurrentTime(mWebView);
@@ -334,6 +331,11 @@ public class AssessWeb extends Activity {
         @JavascriptInterface
         public void showInfoFromJava(String msg){
             Log.d(TAG,"JS调用了Android的方法  showInfoFromJava:"+msg);
+        }
+
+        @JavascriptInterface
+        public void onPlayerReady(String event){
+            Log.d(TAG,"JS调用了Android的方法  onPlayerReady:"+event);
         }
     }
 }

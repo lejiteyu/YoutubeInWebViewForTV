@@ -29,8 +29,9 @@ import java.util.List;
 public class YoutubeFragment extends Fragment {
 
     String TAG = YoutubeFragment.class.getName();
-    private static final String API_KEY = "AIzaSyBoRXUY2uBnV1RxJEAceUq3Itf2Ref9HgA";
-    private String video_idd[] = {"gxmgcXgNWcg"};
+    private static final String API_KEY = "aaaaa";
+    //                                國會頻道    東森新聞      蔡佩軒         鄧芷琪
+    private String video_idd[] = {"MBNStMnw-dg","dxpWqjvEKaM","gxmgcXgNWcg","T4SimnaiktU"};
     private static List<String> VIDEO_ID2;
     String videoUrl;
     Button play_pause;
