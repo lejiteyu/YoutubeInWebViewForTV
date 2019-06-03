@@ -28,8 +28,8 @@ public class YoutubePlayerFragment extends Fragment {
     private String vid;
     boolean isplay=false;
 
-    //                                國會頻道    東森新聞      蔡佩軒         鄧芷琪             中天新聞
-    private String video_idd[] = {"MBNStMnw-dg","dxpWqjvEKaM","gxmgcXgNWcg","T4SimnaiktU", "wUPPkSANpyo"};
+    //                                國會頻道    東森新聞      蔡佩軒         鄧芷琪             中天新聞        CDNyputube
+    private String video_idd[] = {"MBNStMnw-dg","dxpWqjvEKaM","gxmgcXgNWcg","T4SimnaiktU", "wUPPkSANpyo","-DMBcCfhN4M"};
 
     @Override
     public void setArguments(Bundle args) {
@@ -46,7 +46,7 @@ public class YoutubePlayerFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.youtube_player_layout, container, false);
-        vid="dxpWqjvEKaM";
+        vid="wUPPkSANpyo";
 
         mPlayer = (YouTubePlayerView) view.findViewById(R.id.player_youtube);
         mPlayer.loadVideo(vid);

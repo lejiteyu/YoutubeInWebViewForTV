@@ -31,13 +31,13 @@ public class MainActivity extends FragmentActivity {
          * 3.建立資料夾 assets
          * 4.
          */
-        String file="file:///android_asset/";
-        String videoId = "\'T4SimnaiktU\'";
-        Intent intent = new Intent(this, AssessWeb.class);
-        intent.putExtra("message", file+"youtube.html");//"https://staging3.video.friday.tw/act/TV_login/login.html");//
-        intent.putExtra("videoId", videoId);
-        startActivity(intent);
-        finish();
+//        String file="file:///android_asset/";
+//        String videoId = "\'T4SimnaiktU\'";
+//        Intent intent = new Intent(this, AssessWeb.class);
+//        intent.putExtra("message", file+"youtube.html");//"https://staging3.video.friday.tw/act/TV_login/login.html");//
+//        intent.putExtra("videoId", videoId);
+//        startActivity(intent);
+//        finish();
     }
 
     @Override
