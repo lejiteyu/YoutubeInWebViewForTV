@@ -47,8 +47,8 @@ public class AssessWeb extends Activity {
     String openApp="intent";
     RelativeLayout webViewLayout;
     ImageButton menuBackBtn;
-    //                                國會頻道          蔡佩軒         鄧芷琪         東森新聞
-    private String video_idd[] = {"MBNStMnw-dg","gxmgcXgNWcg","T4SimnaiktU","dxpWqjvEKaM"};
+    //                                蔡佩軒         鄧芷琪         東森新聞     國會頻道
+    private String video_idd[] = {"gxmgcXgNWcg","T4SimnaiktU","dxpWqjvEKaM","MBNStMnw-dg"};
 
     String videoId="gxmgcXgNWcg";
 
@@ -69,8 +69,8 @@ public class AssessWeb extends Activity {
 
         };//WebView)findViewById(R.id.webView);
 
-//        URL = "https://www.youtube.com/embed/" + videoId +"enablejsapi=1?autoplay=1&loop=1";//+ "?enablejsapi=1&html5=1";
-        URL = "file:///android_asset/youtube.html";
+        URL = "https://www.youtube.com/embed/" + videoId +"enablejsapi=1?autoplay=1&loop=1";//+ "?enablejsapi=1&html5=1";
+        //URL = "file:///android_asset/youtube.html";
 
         ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
         mWebView.setLayoutParams(params);
@@ -93,7 +93,7 @@ public class AssessWeb extends Activity {
         webSettings.setLoadWithOverviewMode(true);//WebView 自適螢幕大小
         webSettings.setRenderPriority(WebSettings.RenderPriority.HIGH);
         webSettings.setCacheMode(WebSettings.LOAD_DEFAULT);
-        mWebView.loadUrl(URL);
+       // mWebView.loadUrl(URL);
         mWebView.setFocusable(false);
 
         webViewLayout.addView(mWebView);

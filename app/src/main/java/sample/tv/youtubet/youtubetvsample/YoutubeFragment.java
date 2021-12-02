@@ -30,8 +30,8 @@ public class YoutubeFragment extends Fragment {
 
     String TAG = YoutubeFragment.class.getName();
     private static final String API_KEY = "aaaaa";
-    //                                國會頻道    東森新聞      蔡佩軒         鄧芷琪
-    private String video_idd[] = {"MBNStMnw-dg","dxpWqjvEKaM","gxmgcXgNWcg","T4SimnaiktU"};
+    //                                 蔡佩軒         鄧芷琪      國會頻道    東森新聞
+    private String video_idd[] = {"gxmgcXgNWcg","T4SimnaiktU","MBNStMnw-dg","dxpWqjvEKaM"};
     private static List<String> VIDEO_ID2;
     String videoUrl;
     Button play_pause;

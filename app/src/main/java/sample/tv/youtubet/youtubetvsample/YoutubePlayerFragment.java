@@ -46,7 +46,7 @@ public class YoutubePlayerFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.youtube_player_layout, container, false);
-        vid="wUPPkSANpyo";
+        vid="gxmgcXgNWcg";
 
         mPlayer = (YouTubePlayerView) view.findViewById(R.id.player_youtube);
         mPlayer.loadVideo(vid);
