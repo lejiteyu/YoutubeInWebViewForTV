@@ -1,6 +1,8 @@
 package sample.tv.youtubet.youtubetvsample.YoutubePlayer;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.media.PlaybackParams;
 import android.os.Build;
 import android.os.Handler;
@@ -9,6 +11,7 @@ import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Surface;
+import android.widget.Toast;
 
 import com.google.android.youtube.player.internal.s;
 
@@ -88,6 +91,18 @@ public class YouTubePlayerView extends AbstractWebPlayer implements PlaybackCont
         for (Callback callback : mCallbackList) {
             callback.onStarted();
         }
+        AlertDialog.Builder alertDialog =
+                new AlertDialog.Builder(getContext());
+        alertDialog.setTitle("這是標題");
+        alertDialog.setMessage("文字在此");
+        alertDialog.setNeutralButton("取消", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Toast.makeText(getContext(), "取消", Toast.LENGTH_SHORT).show();
+            }
+        });
+        alertDialog.setCancelable(false);
+        alertDialog.show();
     }
 
     //AbstractWebPlayer
